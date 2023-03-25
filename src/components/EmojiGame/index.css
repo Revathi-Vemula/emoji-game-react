@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+}
+
+.emoji-list-container {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 0;
+  padding: 20px;
+  flex: 1;
+}
+
+.emoji-game-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-game-container {
+    padding: 50px;
+  }
+}

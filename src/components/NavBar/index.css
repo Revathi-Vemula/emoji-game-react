@@ -1,0 +1,70 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  width: 100vw;
+  background-color: #ffffff33;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    height: 15vh;
+  }
+  .emoji-logo {
+    height: 50px;
+    width: 50px;
+    margin-right: 3px;
+    margin-top: 10px;
+  }
+  .game-name {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Consolas';
+    margin-top: 15px;
+  }
+  .score {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Consolas';
+    margin-right: 25px;
+  }
+}
+
+.emoji-logo-name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.emoji-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 3px;
+  margin-top: 5px;
+}
+
+.game-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Consolas';
+  margin-top: 10px;
+}
+
+.score {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: 'Consolas';
+  margin-right: 15px;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,52 @@
+.emoji-container {
+  background-color: #ffffff33;
+  min-height: 100px;
+  min-width: 100px;
+  border-radius: 10px;
+  border: solid 2px #ffffff33;
+  margin-right: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.btn-image {
+  background-color: transparent;
+  border-style: none;
+}
+
+.emoji {
+  height: 70px;
+  width: 70px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-container {
+    min-height: 140px;
+    min-width: 200px;
+    padding: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+  }
+  .emoji {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .emoji-container {
+    min-height: 150px;
+    min-width: 250px;
+    padding: 10px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+  }
+  .emoji {
+    height: 90px;
+    width: 90px;
+  }
+}
